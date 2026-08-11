@@ -1,0 +1,18 @@
+/* sami / kmab typography */
+/* Download the open-source font families from the sources in DOWNLOAD_FONTS.md. */
+:root {
+  --font-display: "Inter Display", Inter, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --font-mono: "PT Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.display-xl { font: 700 clamp(4rem, 9vw, 8rem)/0.92 var(--font-display); letter-spacing: -0.055em; }
+.display-lg { font: 700 clamp(3rem, 6vw, 5.5rem)/0.96 var(--font-display); letter-spacing: -0.045em; }
+.h1 { font: 700 clamp(2.5rem, 5vw, 4rem)/1 var(--font-display); letter-spacing: -0.035em; }
+.h2 { font: 650 clamp(2rem, 4vw, 3rem)/1.08 var(--font-display); letter-spacing: -0.025em; }
+.h3 { font: 650 1.5rem/1.15 var(--font-display); letter-spacing: -0.015em; }
+.body-lg { font: 400 1.25rem/1.6 var(--font-body); }
+.body { font: 400 1rem/1.65 var(--font-body); }
+.body-sm { font: 400 0.875rem/1.55 var(--font-body); }
+.label { font: 700 0.75rem/1.2 var(--font-mono); letter-spacing: 0.10em; text-transform: uppercase; }
+.code { font: 400 0.9375rem/1.6 var(--font-mono); }

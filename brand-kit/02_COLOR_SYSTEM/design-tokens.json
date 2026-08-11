@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "brand": "Samuel Worash Getaneh / sami / kmab",
+    "version": "1.0.0",
+    "updated": "2026-07-27"
+  },
+  "color": {
+    "primary": {
+      "50": "#F9F1FF",
+      "100": "#F1DFFF",
+      "200": "#E3BEFF",
+      "300": "#D49AFF",
+      "400": "#C373FF",
+      "500": "#B24BFF",
+      "600": "#9940DB",
+      "700": "#7D34B2",
+      "800": "#60288A",
+      "900": "#441C61"
+    },
+    "secondary": {
+      "green": {
+        "50": "#EFFDF6",
+        "100": "#DCF9EA",
+        "200": "#B9F4D5",
+        "300": "#92EEBD",
+        "400": "#68E7A4",
+        "500": "#3DE08A",
+        "600": "#34C177",
+        "700": "#2B9D61",
+        "800": "#21794B",
+        "900": "#175534"
+      },
+      "amber": {
+        "50": "#FEFAF1",
+        "100": "#FDF4E0",
+        "200": "#FBEAC0",
+        "300": "#F9DE9E",
+        "400": "#F7D177",
+        "500": "#F5C451",
+        "600": "#D3A946",
+        "700": "#AC8939",
+        "800": "#846A2C",
+        "900": "#5D4A1F"
+      }
+    },
+    "neutral": {
+      "bg": "#0E0E11",
+      "surface": "#17171B",
+      "surface2": "#1E1E24",
+      "line": "#2A2A31",
+      "line2": "#3A3A44",
+      "text": "#EDEBE4",
+      "muted": "#9A9AA6",
+      "dim": "#66666F",
+      "paper": "#F7F5EF",
+      "white": "#FFFFFF"
+    },
+    "semantic": {
+      "personalBest": "#B24BFF",
+      "validated": "#3DE08A",
+      "exploration": "#F5C451",
+      "critical": "#FF647C",
+      "information": "#58D6FF",
+      "background": "#0E0E11",
+      "foreground": "#EDEBE4"
+    }
+  },
+  "typography": {
+    "primary": {
+      "family": "Inter Display",
+      "weights": [
+        600,
+        700,
+        800
+      ],
+      "fallback": "Inter, system-ui, sans-serif"
+    },
+    "secondary": {
+      "family": "Inter",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "fallback": "system-ui, sans-serif"
+    },
+    "accent": {
+      "family": "PT Mono",
+      "weights": [
+        400,
+        700
+      ],
+      "fallback": "ui-monospace, monospace"
+    }
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "24px",
+    "6": "32px",
+    "7": "48px",
+    "8": "64px",
+    "9": "96px"
+  },
+  "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "16px",
+    "pill": "999px"
+  },
+  "stroke": {
+    "icon": "1.75px",
+    "logo": "15/128 units"
+  }
+}

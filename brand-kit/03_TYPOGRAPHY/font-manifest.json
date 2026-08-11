@@ -1,0 +1,38 @@
+{
+  "note": "Font binaries are intentionally not redistributed in this package. Download them from the official sources below.",
+  "fonts": [
+    {
+      "role": "Primary / display",
+      "family": "Inter Display",
+      "source": "https://github.com/rsms/inter",
+      "license": "SIL Open Font License 1.1",
+      "recommendedWeights": [
+        600,
+        700,
+        800
+      ]
+    },
+    {
+      "role": "Secondary / body",
+      "family": "Inter",
+      "source": "https://github.com/rsms/inter",
+      "license": "SIL Open Font License 1.1",
+      "recommendedWeights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    },
+    {
+      "role": "Accent / mono",
+      "family": "PT Mono",
+      "source": "https://fonts.google.com/specimen/PT+Mono",
+      "license": "SIL Open Font License 1.1",
+      "recommendedWeights": [
+        400,
+        700
+      ]
+    }
+  ]
+}
