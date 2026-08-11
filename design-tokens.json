@@ -1,0 +1,69 @@
+{
+  "color": {
+    "primary": {
+      "50": "#F9F1FF",
+      "100": "#F1DFFF",
+      "200": "#E3BEFF",
+      "300": "#D49AFF",
+      "400": "#C373FF",
+      "500": "#B24BFF",
+      "600": "#9940DB",
+      "700": "#7D34B2",
+      "800": "#60288A",
+      "900": "#441C61"
+    },
+    "secondary": {
+      "50": "#EFFDF6",
+      "100": "#DCF9EA",
+      "200": "#B9F4D5",
+      "300": "#92EEBD",
+      "400": "#68E7A4",
+      "500": "#3DE08A",
+      "600": "#34C177",
+      "700": "#2B9D61",
+      "800": "#21794B",
+      "900": "#175534"
+    },
+    "tertiary": {
+      "50": "#FEFAF1",
+      "100": "#FDF4E0",
+      "200": "#FBEAC0",
+      "300": "#F9DE9E",
+      "400": "#F7D177",
+      "500": "#F5C451",
+      "600": "#D3A946",
+      "700": "#AC8939",
+      "800": "#846A2C",
+      "900": "#5D4A1F"
+    },
+    "neutral": {
+      "bg": "#0E0E11",
+      "surface": "#17171B",
+      "surface2": "#1E1E24",
+      "line": "#2A2A31",
+      "line2": "#3A3A44",
+      "text": "#EDEBE4",
+      "muted": "#9A9AA6",
+      "dim": "#66666F"
+    },
+    "semantic": {
+      "tier-best": "#B24BFF",
+      "tier-good": "#3DE08A",
+      "tier-side": "#F5C451",
+      "accent": "#B24BFF",
+      "bg": "#0E0E11",
+      "text": "#EDEBE4"
+    }
+  },
+  "font": {
+    "display": "'Space Grotesk', system-ui, sans-serif",
+    "mono": "'Space Mono', ui-monospace, monospace"
+  },
+  "radius": {
+    "sm": "6px",
+    "md": "9px",
+    "lg": "14px",
+    "xl": "16px",
+    "badge": "30px"
+  }
+}
