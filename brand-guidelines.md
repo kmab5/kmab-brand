@@ -51,3 +51,44 @@ for hovers/borders and 700–900 for pressed/really-dark states.
 
 Precise, understated, a little playful. Show the work; let results and craft
 speak. Racing metaphors are seasoning, not the meal.
+
+## Writing
+
+Full spec in `brand-kit/08_WRITING/WRITING_STYLE.md`. The short version:
+
+**Capitalization.** Headings, titles, nav items, labels and buttons are
+lowercase — `about`, `work`, `games`, `box`. Blog titles take a trailing period
+(`sitting with a hard problem.`). No Title Case anywhere. Capitals are for
+emphasis, not decoration; a single full-caps word is a legitimate emphasis tool.
+The marks `sami`, `kmab`, and `λ` are always lowercase.
+
+**Punctuation gets used.** Semicolons, ellipses and parenthetical asides are
+part of the voice, not things to avoid. The parenthetical undercut (main clause
+makes the claim, bracket takes the air out) is its most characteristic move. Em
+dashes stay rare, roughly one per two hundred words; em dash as universal glue
+is the loudest AI tell there is.
+
+**Rhythm.** Mean sentence around 14 words, median 12. Short sentence for the
+hit, longer sentence for the explanation. Fragments are deliberate.
+
+**Registers.** Three, all the same voice at different volumes: informal
+(blog, guides, READMEs), medium (portfolio, UI copy, project blurbs), formal
+(applications, translated pages). Pick one on purpose and hold it. Formal means
+unambiguous, not inflated.
+
+**Openings and endings.** Open on something concrete: a scene, an object, a
+number, a blunt claim, a real question. Close by deflating, on a joke, an
+admission, or a loose end. Never a call to action.
+
+<!-- kmab-writing: ignore-start -->
+
+**Avoid the AI register.** No Title Case, no "it's not X, it's Y", no
+three-adjective triads, no stacked one-line taglines, no `delve` / `leverage` /
+`seamless` / `robust`, no "let's dive in", no closing CTA. Full list in
+`brand-kit/08_WRITING/AI_TELLS.md`. Big words are allowed when they're jokes or
+genuinely the precise word, never when they're decoration.
+
+<!-- kmab-writing: ignore-end -->
+
+For agents writing under this brand, the same rules are packaged as a skill at
+`brand-kit/08_WRITING/skills/kmab-writing/`.

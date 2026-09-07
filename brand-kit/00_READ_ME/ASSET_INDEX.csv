@@ -1,7 +1,8 @@
 path,type,bytes
-00_READ_ME/BRAND_VOICE_AND_MESSAGING.md,md,2371
-00_READ_ME/README.md,md,1714
-00_READ_ME/SOURCE_NOTES.md,md,1483
+00_READ_ME/BRAND_VOICE_AND_MESSAGING.md,md,4247
+00_READ_ME/README.md,md,2115
+00_READ_ME/RELEASE_CHECKLIST.md,md,1248
+00_READ_ME/SOURCE_NOTES.md,md,3947
 01_LOGOS/PNG/badge-lambda-dark.png,png,46098
 01_LOGOS/PNG/icon-maskable.png,png,32862
 01_LOGOS/PNG/primary-sami-color-on-dark.png,png,43424
@@ -99,3 +100,15 @@ path,type,bytes
 07_TEMPLATES/og-card.svg,svg,29033
 07_TEMPLATES/social-avatar.png,png,69555
 07_TEMPLATES/social-avatar.svg,svg,9728
+08_WRITING/AI_TELLS.md,md,5528
+08_WRITING/EXAMPLES.md,md,7488
+08_WRITING/README.md,md,2272
+08_WRITING/WRITING_STYLE.md,md,11665
+08_WRITING/skills/README.md,md,2055
+08_WRITING/skills/kmab-writing.skill,skill,21365
+08_WRITING/skills/kmab-writing/SKILL.md,md,10179
+08_WRITING/skills/kmab-writing/evals/evals.json,json,3233
+08_WRITING/skills/kmab-writing/references/ai-tells.md,md,5528
+08_WRITING/skills/kmab-writing/references/registers.md,md,5928
+08_WRITING/skills/kmab-writing/references/samples.md,md,9341
+08_WRITING/skills/kmab-writing/scripts/check_style.py,py,11111

@@ -1,0 +1,47 @@
+{
+  "skill_name": "kmab-writing",
+  "note": "Writing style is largely a subjective output, so most evaluation here is qualitative. The assertions below only cover the mechanical rules that can actually be checked by a script or a careful read.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "write a short blog post for my site about why i rewrote the gebeta AI three times",
+      "expected_output": "Informal register. Lowercase title with a trailing period. Opens on something concrete (a specific bug, a specific losing game, a number), not on why AI in games matters. Short-then-long sentence rhythm with at least one fragment. At least one parenthetical aside. Ends on a deflation or a loose end, not a call to action.",
+      "files": [],
+      "assertions": [
+        "Title and all headings are lowercase",
+        "No Title Case anywhere in the output",
+        "Fewer than one em dash per 200 words",
+        "Contains at least one parenthetical aside, semicolon, or ellipsis",
+        "Contains at least one sentence under six words",
+        "Does not end with a call to action",
+        "Contains none of: delve, leverage, robust, seamless, elevate, unlock, testament to, at its core, let's dive in"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "here's a draft of my README, make it sound like me: 'Introducing Framer Studio — a seamless, powerful image editor that empowers creators to filter, frame, and export with transparency. Built with performance in mind, it delivers an intuitive experience. Ready to get started? Let's dive in!'",
+      "expected_output": "Recognises the draft as AI-register and rewrites rather than patches. Lowercase heading. Concrete statement of what the tool actually does. Kills seamless/powerful/empowers/intuitive/let's dive in, the three-adjective triad, and the call-to-action ending. Informal register, since it's a repo README.",
+      "files": [],
+      "assertions": [
+        "Heading is lowercase",
+        "The words seamless, empowers, intuitive, and 'let's dive in' are all removed",
+        "The three-adjective triad is broken up or replaced with specifics",
+        "Output does not end on a call to action",
+        "Says concretely what the tool does"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "draft a letter of intent for a university transfer application — computer engineering, i want to explain why i'm leaving my current uni without sounding like i'm trashing it",
+      "expected_output": "Formal register: full sentence case, complete apostrophes, no shorthand, no lowercase i, no jokes that could misread in a second language. Still opens on a concrete scene or specific fact and still uses short sentences. Formal-but-unambiguous rather than formal-but-inflated — no 'leverage', 'facilitate', 'optimal outcome'.",
+      "files": [],
+      "assertions": [
+        "Full sentence case throughout; no lowercase standalone 'i'",
+        "No informal shorthand (u, ur, cuz, dont, im)",
+        "Opens on a concrete scene, fact, or number rather than an abstraction",
+        "Mean sentence length stays under roughly 20 words",
+        "Contains none of: leverage, facilitate, optimal outcome, endeavours, robust"
+      ]
+    }
+  ]
+}
